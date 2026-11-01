@@ -163,8 +163,8 @@ marketing-attribution-data-analysis/
 │       ├── marketing_spend.csv
 │       └── orders.csv
 ├── notebooks/
-│   ├── 01_data_cleaning.ipynb
-│   └── 02_eda_and_recommendation.ipynb
+│   ├── data_clean.ipynb
+│   └── eda.ipynb
 ├── sql/
 │   └── load_raw_tables.sql
 ├── .gitignore
