@@ -1,0 +1,14 @@
+# Jupyter's temporary autosave folder
+.ipynb_checkpoints/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Files that can hold passwords or keys
+.env
+
+# Editor and system files
+.vscode/
+.DS_Store
+Thumbs.db
