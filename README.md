@@ -149,11 +149,11 @@ Spend growth accelerated while revenue growth stalled. By channel in Q2: **Meta 
 marketing-attribution-data-analysis/
 ├── dashboard/
 │   ├── screenshots/
-│   │   ├── page1_problem.png
-│   │   ├── page2_channel_efficiency.png
-│   │   └── page3_where_to_cut.png
+│   │   ├── page1.png
+│   │   ├── page2.png
+│   │   └── page3.png
 │   └── multi_channel.pbix
-├── data/
+├── novacart_data/
 │   ├── processed/
 │   │   ├── customer.csv
 │   │   ├── marketing.csv
@@ -162,8 +162,6 @@ marketing-attribution-data-analysis/
 │       ├── customers.csv
 │       ├── marketing_spend.csv
 │       └── orders.csv
-├── docs/
-│   └── data_dictionary.md
 ├── notebooks/
 │   ├── 01_data_cleaning.ipynb
 │   └── 02_eda_and_recommendation.ipynb
