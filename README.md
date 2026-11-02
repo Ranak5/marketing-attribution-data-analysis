@@ -174,11 +174,11 @@ marketing-attribution-data-analysis/
 
 ## How to Run
 
-1. Install the libraries: `pip install pandas numpy matplotlib seaborn mysql-connector-python python-dateutil`
-2. Load the raw tables into a local MySQL database named `novacart_staging`, and set the password in an environment variable (`HR_DB_PASSWORD`). Never hard-code it in the notebook.
-3. Run `data_cleaning.ipynb` to create `customer.csv`, `marketing.csv` and `order.csv`.
-4. Run `eda.ipynb`.
-5. Open `multi_channel.pbix` in Power BI Desktop and refresh the data from the cleaned CSVs.
+   1. Install the libraries: `pip install -r requirements.txt`
+   2. Load the raw tables into a local MySQL database named `novacart_staging` (see `sql/load_raw_tables.sql`) and set the password in an environment variable (`HR_DB_PASSWORD`). Never hard-code it in the notebook.
+   3. Run `notebooks/data_clean.ipynb` to create `customer.csv`, `marketing.csv` and `order.csv`.
+   4. Run `notebooks/eda.ipynb`.
+   5. Open `dashboard/multi_channel.pbix` in Power BI Desktop and refresh the data from the cleaned CSVs.
 
 ---
 
